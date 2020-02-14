@@ -1,0 +1,27 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 13,
+    "breadcrumbs.enabled": false,
+    "editor.detectIndentation": false,
+    "workbench.editor.enablePreview": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.exclude": {
+        "**/*.spec.ts": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "editor.formatOnPaste": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "DVLPR",
+}
