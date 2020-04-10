@@ -33,4 +33,5 @@
         "sideBar.background": "#000",
         "dropdown.background": "#333",
     },
+    "terminal.integrated.fontSize": 12,
 }
