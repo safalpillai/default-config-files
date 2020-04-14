@@ -34,4 +34,5 @@
         "dropdown.background": "#333",
     },
     "terminal.integrated.fontSize": 12,
+    "debug.console.fontSize": 12,
 }
