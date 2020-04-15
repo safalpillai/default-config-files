@@ -39,7 +39,6 @@
     "codemetrics.basics.EnabledForLua": false,
     "codemetrics.basics.OverviewRulerModeEnabled": false,
     "bracketPairColorizer.consecutivePairColors": [
-    
         "()",
         "[]",
         "{}",
