@@ -14,7 +14,6 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "bracketPairColorizer.showHorizontalScopeLine": false,
-    "bracketPairColorizer.showVerticalScopeLine": false,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
     "prettier.useTabs": true,
@@ -35,4 +34,20 @@
     },
     "terminal.integrated.fontSize": 12,
     "debug.console.fontSize": 12,
+    "codemetrics.basics.CodeLensHiddenUnder": 5,
+    "codemetrics.basics.EnabledForHTML": false,
+    "codemetrics.basics.EnabledForLua": false,
+    "codemetrics.basics.OverviewRulerModeEnabled": false,
+    "bracketPairColorizer.consecutivePairColors": [
+    
+        "()",
+        "[]",
+        "{}",
+        [
+            "Gold",
+            "Orchid",
+            "LightSkyBlue"
+        ],
+        "Red"
+    ],
 }
