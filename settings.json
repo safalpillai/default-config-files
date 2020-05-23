@@ -1,6 +1,5 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 13,
     "breadcrumbs.enabled": false,
     "editor.detectIndentation": false,
     "workbench.editor.enablePreview": false,
@@ -26,14 +25,14 @@
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDelete": false,
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "workbench.colorCustomizations": {
         "sideBar.background": "#000",
         "dropdown.background": "#333",
     },
-    "terminal.integrated.fontSize": 12,
-    "debug.console.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
+    "debug.console.fontSize": 13,
     "codemetrics.basics.CodeLensHiddenUnder": 5,
     "codemetrics.basics.EnabledForHTML": false,
     "codemetrics.basics.EnabledForLua": false,
@@ -49,4 +48,14 @@
         ],
         "Red"
     ],
+    "editor.fontSize": 13,
+    "spotify.showLyricsButton": false,
+    "spotify.lyricsButtonPriority": -1,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.tokenColorCustomizations": null,
+    "editor.rulers": [],
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
 }
