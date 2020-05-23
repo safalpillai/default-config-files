@@ -57,5 +57,5 @@
     "editor.tokenColorCustomizations": null,
     "editor.rulers": [],
     "editor.formatOnType": true,
-    "editor.formatOnSave": true,
+    "editor.quickSuggestions": true,
 }
