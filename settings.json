@@ -21,19 +21,19 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "DVLPR",
+    "workbench.colorTheme": "codeSTACKr Theme",
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDelete": false,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.colorCustomizations": {
-        "sideBar.background": "#000",
-        "dropdown.background": "#333",
-    },
+    // "workbench.colorCustomizations": {
+    //     "sideBar.background": "#000",
+    //     "dropdown.background": "#333",
+    // },
     "terminal.integrated.fontSize": 13,
     "debug.console.fontSize": 13,
-    "codemetrics.basics.CodeLensHiddenUnder": 5,
+    "codemetrics.basics.CodeLensHiddenUnder": 1,
     "codemetrics.basics.EnabledForHTML": false,
     "codemetrics.basics.EnabledForLua": false,
     "codemetrics.basics.OverviewRulerModeEnabled": false,
@@ -48,7 +48,6 @@
         ],
         "Red"
     ],
-    "editor.fontSize": 13,
     "spotify.showLyricsButton": false,
     "spotify.lyricsButtonPriority": -1,
     "[javascript]": {
@@ -58,4 +57,19 @@
     "editor.rulers": [],
     "editor.formatOnType": true,
     "editor.quickSuggestions": true,
+    "color-highlight.markRuler": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.list.smoothScrolling": true,
+    "debug.javascript.usePreview": true,
+    "editor.renameOnType": true,
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.float": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 12,
+    "workbench.activityBar.visible": true,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "codemetrics.basics.DecorationTemplate": "<svg xmlns='http://www.w3.org/2000/svg' width='{{size}}px' height='{{size}}px' viewbox='0 0 {{size}} {{size}}'><rect width='{{size}}' height='{{size}}' style='fill:{{color}};stroke-width:1;stroke:{{color}}'/></svg>",
 }
