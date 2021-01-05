@@ -4,13 +4,12 @@
     "editor.detectIndentation": false,
     "workbench.editor.enablePreview": false,
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "files.exclude": {
-        "**/*.spec.ts": true
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.cursorStyle": "line",
     },
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.cursorStyle": "line",
     },
     "bracketPairColorizer.showHorizontalScopeLine": false,
     "prettier.tabWidth": 4,
@@ -18,22 +17,18 @@
     "prettier.useTabs": true,
     "editor.formatOnPaste": true,
     "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.cursorStyle": "line",
     },
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "codeSTACKr Theme",
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDelete": false,
     "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.cursorStyle": "line",
     },
-    // "workbench.colorCustomizations": {
-    //     "sideBar.background": "#000",
-    //     "dropdown.background": "#333",
-    // },
-    "terminal.integrated.fontSize": 13,
-    "debug.console.fontSize": 13,
-    "codemetrics.basics.CodeLensHiddenUnder": 1,
+    "terminal.integrated.fontSize": 11,
+    "debug.console.fontSize": 11,
     "codemetrics.basics.EnabledForHTML": false,
     "codemetrics.basics.EnabledForLua": false,
     "codemetrics.basics.OverviewRulerModeEnabled": false,
@@ -51,7 +46,8 @@
     "spotify.showLyricsButton": false,
     "spotify.lyricsButtonPriority": -1,
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.cursorStyle": "underline",
     },
     "editor.tokenColorCustomizations": null,
     "editor.rulers": [],
@@ -62,7 +58,7 @@
     "editor.cursorSmoothCaretAnimation": true,
     "workbench.list.smoothScrolling": true,
     "debug.javascript.usePreview": true,
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "scss.lint.duplicateProperties": "warning",
     "scss.lint.float": "warning",
     "scss.lint.zeroUnits": "warning",
@@ -72,4 +68,19 @@
     "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "codemetrics.basics.DecorationTemplate": "<svg xmlns='http://www.w3.org/2000/svg' width='{{size}}px' height='{{size}}px' viewbox='0 0 {{size}} {{size}}'><rect width='{{size}}' height='{{size}}' style='fill:{{color}};stroke-width:1;stroke:{{color}}'/></svg>",
+    "files.associations": {
+        "*.scss": "scss",
+        "*.gs": "javascript"
+    },
+    "[scss]": {
+        "editor.autoIndent": "full",
+        "editor.suggest.insertMode": "replace",
+        "editor.cursorStyle": "line",
+        "editor.formatOnPaste": false,
+    },
+    "codemetrics.basics.CodeLensHiddenUnder": 6,
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.autoIndent": "full"
 }
